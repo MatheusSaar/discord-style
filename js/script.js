@@ -4,13 +4,13 @@ const userServers = [...document.getElementsByClassName('user-servers')[0].child
 
 for (let server of directMessage) {
   server.addEventListener('click', (e) => {
-    addContent(server, 'Servidor dos Amigos');
+    addContent(server, 'My Server');
   })
 }
 
 for (let server of userServers) {
   server.addEventListener('click', (e) => {
-    addContent(server, 'Dopamina de Meme');
+    addContent(server, 'Other Servers');
   });
 }
 
